@@ -1,0 +1,49 @@
+.container {
+  width: 100%;
+
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #333333;
+
+  background: var(--gray-400);
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  gap: 12px;
+  
+
+  text-align: left;
+}
+
+.content svg {
+  color:#808080;
+
+  cursor: pointer;
+}
+
+.content svg:nth-child(3):hover {
+  color: #F75A68;
+}
+
+.content svg:nth-child(1) {
+  color: #4EA8DE;
+} 
+
+.content svg:nth-child(1):hover  {
+  opacity: .7;
+}
+
+.content p {
+  width: 100%;
+  max-width: 632px;
+  word-break: break-all;
+
+
+  font-weight: 400;
+  font-size: 0.875rem;
+
+  color: var(--gray-100);
+}
