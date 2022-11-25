@@ -12,6 +12,8 @@ tasks more organized for their day to day
 + <a href="https://www.typescriptlang.org/">Typescript</a>
 + <a href="https://pt-br.reactjs.org/">React</a>
 + <a href="https://vitejs.dev/">Vite</a>
++ <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML</a>
++ <a href="https://developer.mozilla.org/pt-BR/docs/Web/css">CSS</a>
 <hr/>
 
 website made with lots of love ❤️
