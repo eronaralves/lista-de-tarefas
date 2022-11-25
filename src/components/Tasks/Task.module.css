@@ -24,6 +24,10 @@
   cursor: pointer;
 }
 
+.content svg:hover {
+  color: #008000;
+}
+
 .content svg:nth-child(3):hover {
   color: #F75A68;
 }

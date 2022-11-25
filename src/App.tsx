@@ -1,4 +1,4 @@
-import { FormEvent, InvalidEvent, useState } from 'react'
+import { FormEvent, useState } from 'react'
 
 // Components
 import { Header } from './components/Header'
@@ -8,6 +8,8 @@ import { Task } from './components/Tasks'
 import styles from './App.module.css'
 import './styles/global.css'
 import { X } from 'phosphor-react'
+import { toast, ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.min.css'
 
 interface Task {
   search: string,
@@ -34,6 +36,7 @@ export default function App() {
   function handleDeleteTask(id:number) {
     const deleteTask = tasks.filter(item => item.id !== id)
 
+    setTasksFinished([])
     setTaks(deleteTask)
   }
 
@@ -65,6 +68,7 @@ export default function App() {
 
     setTaks(listTasks)
     setIsModal(false)
+    toast.success('Tarefa alterada com sucesso')
   }
 
   return (
@@ -118,6 +122,7 @@ export default function App() {
           </form>
         </div>
       )}
+      <ToastContainer/>
     </div>
   )
 }
