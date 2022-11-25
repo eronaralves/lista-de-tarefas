@@ -35,8 +35,9 @@ export default function App() {
 
   function handleDeleteTask(id:number) {
     const deleteTask = tasks.filter(item => item.id !== id)
-
-    setTasksFinished([])
+    const deleteTasksFinished = tasksFinished.filter(item => item.id !== id)
+    
+    setTasksFinished(deleteTasksFinished)
     setTaks(deleteTask)
   }
 
