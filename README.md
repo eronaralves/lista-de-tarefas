@@ -16,4 +16,7 @@ tasks more organized for their day to day
 + <a href="https://developer.mozilla.org/pt-BR/docs/Web/css">CSS</a>
 <hr/>
 
+application running: <a href="lista-de-tarefas-iota.vercel.app
+">lista-de-tarefas-iota.vercel.ap</hre>
+
 website made with lots of love ❤️
