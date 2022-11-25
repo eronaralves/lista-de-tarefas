@@ -103,7 +103,6 @@ export default function App() {
               {tasks.map(item => (
                 <Task key={item.id} text={item.search} onDeleteTask={() => handleDeleteTask(item.id)} onFinishedTask={(ischeked) => handleTaskFinished(ischeked, item)} onEditTask={() => handleEditTask(item)}/>
               ))}
-              
             </div>
           </div>
         </form>

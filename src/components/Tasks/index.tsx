@@ -33,7 +33,6 @@ export function Task({text, onDeleteTask, onFinishedTask, onEditTask}: TaskProps
           onClick={() => handleFinishedTask()}
           />
         }
-        
         <p>{text}</p>
         <Trash size={24} onClick={onDeleteTask}/>
         <Pencil size={24} onClick={onEditTask}/>
