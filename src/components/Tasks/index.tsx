@@ -1,5 +1,6 @@
-import {Trash, CheckCircle, Circle, Pencil} from 'phosphor-react'
 import { useState } from 'react'
+import {Trash, CheckCircle, Circle, Pencil} from 'phosphor-react'
+
 // Styles
 import styles from './Task.module.css'
 
